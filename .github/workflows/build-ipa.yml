@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build Unsigned IPA for Sideloadly
-    runs-on: macos-14 # Chạy trên macOS mới nhất có sẵn Xcode
+    runs-on: macos-latest # Sử dụng runner macOS mới nhất của GitHub
 
     steps:
       - name: Checkout repository
@@ -19,7 +19,6 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
           channel: 'stable'
           cache: true
 
