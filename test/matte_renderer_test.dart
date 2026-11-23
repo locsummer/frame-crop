@@ -1,7 +1,5 @@
-import 'dart:ui' as ui;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:frame_crop/models/matte_config.dart';
-import 'package:frame_crop/models/artwork.dart';
 import 'package:frame_crop/services/museum_service.dart';
 
 void main() {

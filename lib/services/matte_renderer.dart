@@ -179,7 +179,6 @@ class MatteRenderer {
   static Future<ui.Image> createSampleArtImage() async {
     final recorder = ui.PictureRecorder();
     final canvas = Canvas(recorder, const Rect.fromLTWH(0, 0, 1920, 1080));
-    const rect = Rect.fromLTWH(0, 0, 1920, 1080);
 
     // Bầu trời hoàng hôn hoàng gia
     final skyGradient = ui.Gradient.linear(
