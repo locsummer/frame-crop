@@ -29,6 +29,9 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+# Build artifacts
+*.ipa
+*.apk
 /build/
 
 # Symbolication related
